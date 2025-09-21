@@ -88,10 +88,6 @@ export default function Resume() {
               and professional certifications that showcase my expertise.
             </p>
             
-            <Button className="btn-professional group">
-              <Download className="w-4 h-4 mr-2 group-hover:animate-bounce" />
-              Download Full Resume
-            </Button>
           </motion.div>
 
           <div className="grid lg:grid-cols-3 gap-12">

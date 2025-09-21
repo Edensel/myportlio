@@ -35,7 +35,7 @@ export default function Hero() {
     // In a real application, this would download the actual resume
     const link = document.createElement('a');
     link.href = personal.resume;
-    link.download = 'Alex_Thompson_Resume.pdf';
+    link.download = 'Densel-Esekon-Resume.pdf';
     link.click();
   };
 

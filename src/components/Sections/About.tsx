@@ -58,11 +58,13 @@ export default function About() {
                 Vision
               </span>
             </h2>
-            <p className="text-body-lg text-muted-foreground max-w-3xl mx-auto">
-              I'm a dedicated full-stack developer and DevOps engineer who loves creating
-              innovative solutions that make a difference. With a strong foundation in
-              modern technologies and a passion for clean, efficient code.
-            </p>
+              <p className="text-body-lg text-muted-foreground max-w-1xl mx-auto" style={{ direction: 'rtl', textAlign: 'left' }}>
+                Dynamic DevSecOps Engineer with 4+ years in IT systems and 1–2 years in DevOps, integrating security 
+                into cloud and CI/CD pipelines. Proficient in AWS, Kubernetes, and automation tools for secure 
+                deployments and compliance. Achieved 95% SLA compliance while reducing vulnerabilities through proactive 
+                measures and scripting. Combines technical expertise and certifications to build resilient systems that accelerate
+                delivery without compromising security
+              </p>
           </motion.div>
 
           <div className="grid lg:grid-cols-2 gap-16 items-center">

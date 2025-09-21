@@ -75,68 +75,70 @@ export const portfolioData = {
     ]
   },
 
-  experience: [
-    {
-      company: "Moringa School",
-      position: "Associate IT Support Specialist & Salesforce Admin",
-      duration: "May 2022 - Present",
-      description: "Serve as first point of contact for 150+ staff, managing comprehensive IT support operations and Salesforce administration with focus on user satisfaction and system optimization.",
-      achievements: [
-        "Maintained 95% first-response SLA compliance while resolving 50+ weekly tickets via Zendesk",
-        "Reduced resolution time by 40% through efficient support workflows and remote troubleshooting",
-        "Streamlined Microsoft 365 and Active Directory management, reducing access errors by 35%",
-        "Improved self-service resolution by 20% through comprehensive IT documentation"
-      ]
-    },
-    {
-      company: "Moringa School",
-      position: "Asset Management Assistant",
-      duration: "Oct 2021 - June 2023",
-      description: "Implemented comprehensive asset tracking and lifecycle management systems, achieving significant improvements in accuracy, compliance, and cost optimization across 500+ assets.",
-      achievements: [
-        "Improved asset record accuracy from 55% to 98% using barcode tracking system",
-        "Negotiated vendor contracts saving $22K annually on hardware/software expenditures",
-        "Achieved 100% license compliance through quarterly audits, eliminating $15K in potential fines",
-        "Reduced procurement-to-deployment time by 50% through optimized SOPs"
-      ]
-    },
-    {
-      company: "Kenya Electricity Generating Company (KenGen)",
-      position: "ICT Officer",
-      duration: "January 2020 - June 2021",
-      description: "Delivered proactive ICT support for critical infrastructure operations, managing Windows and Linux environments for 300+ users with focus on system reliability and minimal downtime.",
-      achievements: [
-        "Minimized operational downtime by 60% through proactive ICT support strategies",
-        "Reduced user wait time by 50% through efficient helpdesk support processes",
-        "Improved system reliability through strategic AD policies and routine updates",
-        "Increased device uptime by 35% through preventive maintenance schedules"
-      ]
-    },
-    {
-      company: "Spekon Logistics",
-      position: "IT Support Officer",
-      duration: "October 2018 - June 2019",
-      description: "Managed comprehensive IT infrastructure including network devices, licensing compliance, and communication systems migration for logistics operations.",
-      achievements: [
-        "Configured and maintained 50+ networked devices with 99.8% uptime",
-        "Achieved 100% license compliance through quarterly audits, avoiding $12K in fines",
-        "Reduced communication costs by 60% through VoIP system migration",
-        "Created internal IT wiki deflecting 30% of routine inquiries through self-service"
-      ]
-    },
-    {
-      company: "Antidote Media Solutions",
-      position: "ICT Officer",
-      duration: "July 2018 - October 2018",
-      description: "Provided end-to-end technical support for media production environments, managing system upgrades and application installations for creative workflows.",
-      achievements: [
-        "Delivered comprehensive support for system upgrades and application installations",
-        "Maintained media production systems with zero downtime during critical projects",
-        "Streamlined IT processes for creative team workflows",
-        "Implemented backup and recovery procedures for media assets"
-      ]
-    }
-  ],
+experience: [
+  {
+    company: "Moringa School",
+    position: "Associate IT Support Specialist and Salesforce Admin",
+    duration: "May 2022 – Present",
+    description: "Served as the primary contact for 150+ users, resolving 50+ weekly tickets via Zendesk with 95% first-response SLA compliance. Integrated DevOps practices in system deployments and managed secure backup solutions in cloud environments.",
+    achievements: [
+      "Enhanced user satisfaction by 30% through secure and efficient troubleshooting as primary contact for 150+ users",
+      "Automated user onboarding/offboarding with PowerShell scripts in Microsoft 365 and Active Directory, reducing access-related vulnerabilities and errors by 35%",
+      "Deployed secure backup solutions incorporating DevSecOps principles to scan for vulnerabilities during recovery, cutting resolution time by 40%",
+      "Applied Linux administration and Kubernetes skills to virtualized setups, reducing security incidents by 25%",
+      "Created comprehensive documentation and SOPs that promoted self-service resolution by 20% and aligned with DevSecOps best practices"
+    ]
+  },
+  {
+    company: "Moringa School",
+    position: "Asset Management Assistant",
+    duration: "October 2021 – June 2023",
+    description: "Maintained virtualized storage systems using DevOps tools for barcode tracking and lifecycle management across 500+ assets, achieving 98% asset accuracy and reducing loss incidents.",
+    achievements: [
+      "Achieved 98% asset accuracy and reduced loss incidents by 40% through automated compliance checks and barcode tracking",
+      "Generated performance and capacity reports using automated scripting, supporting business decision-making",
+      "Conducted quarterly audits achieving 100% license compliance, eliminating $15K in potential fines and legal risks",
+      "Reduced procurement-to-deployment time by 50% (from 14 to 7 days average) through optimized SOPs",
+      "Trained 120+ staff on asset management protocols, decreasing improper equipment handling tickets by 65%"
+    ]
+  },
+  {
+    company: "Kenya Electricity Generating Company (KenGen)",
+    position: "ICT Officer",
+    duration: "January 2020 – June 2021",
+    description: "Delivered proactive ICT support for 300+ users across Windows and Linux environments, minimizing operational downtime and ensuring uninterrupted company activities.",
+    achievements: [
+      "Minimized operational downtime by 60% through proactive ICT support strategies",
+      "Reduced user wait time by 50% through efficient helpdesk support processes for 300+ users",
+      "Improved system reliability and user access consistency through strategic AD policies and routine updates",
+      "Increased device uptime by 35% through designed preventive maintenance schedules"
+    ]
+  },
+  {
+    company: "Spekon Logistics",
+    position: "IT Support Officer",
+    duration: "October 2018 – June 2019",
+    description: "Configured and maintained 50+ networked devices with 99.8% uptime while achieving complete license compliance and migrating communication systems to VoIP.",
+    achievements: [
+      "Maintained 50+ networked devices with 99.8% uptime, reducing print-related tickets by 75%",
+      "Achieved 100% license compliance through quarterly audits, avoiding $12K in potential fines",
+      "Migrated phone system to VoIP, reducing communication costs by 60% while improving call quality metrics by 40%",
+      "Created the first internal IT wiki that deflected 30% of routine inquiries through self-service"
+    ]
+  },
+  {
+    company: "Antidote Media Solutions",
+    position: "ICT Officer",
+    duration: "July 2018 – October 2018",
+    description: "Delivered end-to-end technical support for media production environments, maintaining system integrity through responsive issue resolution and compliance tracking.",
+    achievements: [
+      "Delivered comprehensive support for system upgrades and application installations for creative workflows",
+      "Maintained media production systems with zero downtime during critical projects through responsive resolution",
+      "Implemented upgrades and repairs on workstations and peripherals, reducing system downtime by 20%",
+      "Implemented backup and recovery procedures for critical media assets ensuring data protection"
+    ]
+  }
+],
 
   education: [
     {
